@@ -4,7 +4,7 @@ provider "azurerm" {
   }
 
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "rg1" {
   name     = "second_rg"
   location = "West Europe"
 }
